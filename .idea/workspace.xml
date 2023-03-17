@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f513cde0-d1f3-4981-8c51-ecc8a962704d" name="Changes" comment="Rest get practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/StreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestStream.java" afterDir="false" />
+    <list default="true" id="f513cde0-d1f3-4981-8c51-ecc8a962704d" name="Changes" comment="post api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/APITests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APITests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,34 +82,23 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.APITests.test3">
-    <configuration name="APITests." type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.APITests.test4">
+    <configuration name="APITests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestPractice" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="APITests" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="APITests.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="APITests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestPractice" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="APITests" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,11 +118,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest.checkResponse" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="APITests.test4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestPractice" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StreamTest" />
-      <option name="METHOD_NAME" value="checkResponse" />
+      <option name="MAIN_CLASS_NAME" value="APITests" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -157,19 +143,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.APITests" />
+      <item itemvalue="TestNG.APITests.test1" />
+      <item itemvalue="TestNG.APITests.test4" />
       <item itemvalue="TestNG.APITests.test3" />
-      <item itemvalue="TestNG.StreamTest.checkResponse" />
       <item itemvalue="TestNG.TestStream.checkResponse" />
-      <item itemvalue="TestNG.APITests." />
-      <item itemvalue="TestNG.APITests.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.APITests.test4" />
+        <item itemvalue="TestNG.APITests" />
         <item itemvalue="TestNG.APITests.test3" />
+        <item itemvalue="TestNG.APITests.test1" />
         <item itemvalue="TestNG.TestStream.checkResponse" />
-        <item itemvalue="TestNG.StreamTest.checkResponse" />
-        <item itemvalue="TestNG.APITests." />
-        <item itemvalue="TestNG.APITests.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679039068407</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="post api">
+      <created>1679053223406</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679053223406</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,7 +205,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rest get practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rest get practice" />
+    <MESSAGE value="post api" />
+    <option name="LAST_COMMIT_MESSAGE" value="post api" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

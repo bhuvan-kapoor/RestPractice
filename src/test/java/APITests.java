@@ -29,14 +29,29 @@ public class APITests {
 
     @Test
     public static void test3() {
+        RestAssured.baseURI ="https://reqres.in";
         RequestSpecification request = RestAssured.given();
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("name", "bhuvan");
         jsonObject.put("job", "leadqa");
-        jsonObject.put("id", "23132131");
+        jsonObject.put("id", 1232);
+        //System.out.println(jsonObject);
         //jsonObject.put("createdAt", "2023-03-17T10:27:53.668Z");
         request.body(jsonObject.toJSONString());
-        Response response = post("https://reqres.in/api/users");
+        //System.out.println(request);
+        Response response = request.post("/api/users");
+        System.out.println(response.getBody().asString());
+        int statusCode = response.getStatusCode();
+        assertEquals(statusCode, 201,"success");
+    }
+
+    @Test
+    public static void test4() {
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("name", "bhuvan");
+        jsonObject.put("job", "leadqa");
+        jsonObject.put("id", 1232);
+        Response response = given().body(jsonObject.toJSONString()).post("https://reqres.in/api/users");
         System.out.println(response.getBody().asString());
         int statusCode = response.getStatusCode();
         assertEquals(statusCode, 201,"success");
